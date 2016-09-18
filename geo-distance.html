@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`geo-distance`
+provides distance in meters and feet of two geolocation points
+
+@demo demo/index.html 
+-->
+
+<dom-module id="geo-distance">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'geo-distance',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'geo-distance',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
